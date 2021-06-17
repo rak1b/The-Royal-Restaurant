@@ -1006,12 +1006,25 @@ body {
 
 
 /* For Phone */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .image_text {
     width: 90%;
   }
 
   .image_text h6 {
     font-size: 60px;
+    text-align: center;
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    background: white;
+    width: 900px !important;
+    min-height: 295px;
+    padding: 15px;
+  }
+  .welcome-area{
+    margin-bottom: 100%;
   }
 }
